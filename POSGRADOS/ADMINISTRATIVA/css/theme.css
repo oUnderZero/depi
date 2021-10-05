@@ -1,0 +1,120 @@
+._background._blue {
+    background-color: #1b396a;
+}
+._text._blue {
+    color: #1b396a;
+}
+._background._gray {
+    background-color: #807e82;
+}
+._text._gray {
+    color: #807e82;
+}
+._background._lightgray {
+    background-color: #efefef;
+}
+._background._black {
+    background-color: #000000;
+}
+._text._black {
+    color: #000000;
+}
+._background._white {
+    background-color: #fff;
+}
+._text._white {
+    color: #fff;
+}
+._background._golden {
+    background-color: #b38e5d;
+}
+._text._golden {
+    color: #b38e5d;
+}
+._background._green {
+    background-color: #12322b;
+}
+._text._green {
+    color: #12322b;
+}
+._background._red {
+    background-color: #9d2449;
+}
+._text._red {
+    color: #9d2449;
+}
+p._paragraph {
+    text-align: justify;
+}
+._mx_h5 {
+    font-size: 18px;
+}
+._justified {
+    text-align: justify;
+}
+._non_justified {
+    text-align: start;
+}
+._download {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: #1b396a;
+    border-style: dashed;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+._undecorate {
+    text-decoration: none;
+}
+._one_line {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+a:hover {
+    color: #1b396a;
+}
+
+strong {
+    font-weight: bold;
+}
+.banner {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    background-color: #9d2449;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border-bottom: #b38e5d;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+}
+.banner > p {
+    line-height: 0%;
+    margin: 10px;
+    color: #fff;
+}
+
+.on_dev {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #1b396a;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.on_dev > p {
+    margin: 10px;
+    color: #fff;
+}
