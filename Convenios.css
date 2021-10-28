@@ -1,9 +1,9 @@
 .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/scott-graham-OQMZwNd3ThU-unsplash.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/08cb5042-0f4c-4b1b-9460-99a3497ff7b0.jpg");
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 778px;
+  min-height: 100vh;
 }
 
 .u-section-1 .u-text-1 {
@@ -15,34 +15,12 @@
 .u-section-1 .u-text-2 {
   font-weight: 200;
   animation-duration: 1000ms;
-  margin: 48px 0 60px;
+  margin: 48px 0 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 {
     background-position: 50% 50%;
-  }
-
-  .u-section-1 .u-sheet-1 {
-    min-height: 642px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 492px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 369px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 232px;
   }
 }.u-section-2 {
   background-image: none;

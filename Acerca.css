@@ -1,15 +1,15 @@
 .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/descarga.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/ccea973f-de39-45cc-b097-010798d7452e.jpg");
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 777px;
+  min-height: 100vh;
 }
 
 .u-section-1 .u-text-1 {
   font-weight: 500;
-  width: 336px;
   animation-duration: 1000ms;
+  width: 336px;
   margin: 346px auto 0;
 }
 
@@ -17,22 +17,12 @@
   font-weight: 200;
   width: 673px;
   animation-duration: 1000ms;
-  margin: 31px auto 60px;
+  margin: 31px auto 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 {
     background-position: 50% 50%;
-  }
-
-  .u-section-1 .u-sheet-1 {
-    min-height: 641px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 491px;
   }
 }
 
