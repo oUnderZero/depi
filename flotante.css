@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#btn-chatbot{
+    display: none;
+}
+
+.container{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0) transparent;
+}
+
+.icon-chatbot{
+    background-image: url(Chatbot.png);
+    background-repeat: no-repeat ;
+    background-size: 95px 120px;
+    display: block;
+    width: 95px;
+    height: 120px;
+    transition: all 500ms ease;
+}
+
+
+.chatbot iframe{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#btn-chatbot:checked~ .chatbot iframe{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.icon-chatbot{
+    float: right;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+#btn-chatbot:checked ~ .btn-chatbot .icon-chatbot{
+    transform: rotate(137deg);
+    font-size: 25px;
+}
