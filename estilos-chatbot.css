@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mensaje{
+    float: left;
+    width: 75%;
+    margin-top: 15px;
+} 
+
+.text-msj{
+    text-align: right;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-shadow:#052b4f 0.1em 0.1em 0.2em
+}
+.logo{
+    float: left;
+    width: 25%;
+    visibility: visible;
+}
+
+#btn-bot{
+    display: none;
+}
+
+.container{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0) transparent;
+}
+
+.icon-bot{
+    background-image: url(Chatbot.png);
+    background-repeat: no-repeat ;
+    background-size: 90px 120px;
+    display: block;
+    width: 90px;
+    height: 120px;
+    transition: all 500ms ease;
+}
+
+
+.bot .chat{
+    opacity: 0;
+    visibility: hidden;
+}
+
+#btn-bot:checked~ .bot .chat{
+    margin-bottom: 30px;
+    opacity: 1;
+    visibility: visible;
+}
+
+#btn-bot:checked~ .btn-bot{
+    visibility: hidden;
+}
+
+.icon-bot{
+    float: right;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+#btn-bot:checked ~ .btn-bot .icon-bot{
+    transform: rotate(137deg);
+    font-size: 25px;
+}
+
+.btn-bot{
+    overflow: hidden;
+}

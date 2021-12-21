@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="nicepage.css" media="screen">
   <link rel="stylesheet" href="Titulaciones.css?n=1" media="screen">
   <link rel="stylesheet" href="flotante.css?n=1" media="screen">
-
+  <link rel="stylesheet" href="estilos-chatbot.css">
   <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
   <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
   <meta name="generator" content="Nicepage 3.30.2, nicepage.com">
@@ -555,6 +555,110 @@
         data-animation-duration="1000" data-animation-delay="0">Página creada por: </h5>
     </div>
   </footer>
+
+  <!--Chatbot incio-->
+
+  <div class="container">
+    <input type="checkbox" id="btn-bot">
+    <div class="bot">
+      <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1 chat">
+        <div class="u-container-layout u-valign-middle u-container-layout-1">
+          <div class="u-clearfix u-custom-html u-custom-html-1">
+            <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+            <style>
+              #h1 {
+                font-size: 15px;
+                font-family: Segoe UI;
+                line-height: 20px;
+                color: whitesmoke;
+                display: table-cell;
+                padding: 10px 0px 0px 2px;
+              }
+
+              #heading {
+                background-color: #1B396A;
+                height: 50px;
+                padding: 5px;
+              }
+
+              #webchat {
+                height: 100%;
+                width: 100%;
+                border: 1px solid black;
+              }
+
+              #personalizar {
+                height: 440px;
+                width: 380px;
+
+              }
+
+              #logo1 {
+                height: 40px;
+                width: 42px;
+                float: left;
+
+              }
+
+              #sizelogo1 {
+                height: 100%;
+                width: 100%;
+              }
+            </style>
+            <div id="personalizar">
+              <div id="heading">
+                <img id="logo1" src="images/75aafbc6-1fe3-423c-ba70-67a3b53929b0.png">
+                <h1 id="h1">División de Estudios de Posgrado e Investigación</h1>
+              </div>
+              <div id="webchat" role="main"></div>
+            </div>
+            <script> const styleSet = window.WebChat.createStyleSet({
+
+                bubbleBackground: 'white',
+                bubbleTextColor: 'black',
+                bubbleBorderColor: '#807E82',
+                bubbleFromUserBackground: '#1B396A',
+                bubbleFromUserBorderColor: '#807E82',
+                bubbleFromUserTextColor: 'white',
+                rootHeight: '100%',
+                rootWidth: '100%',
+                backgroundColor: 'white',
+                sendBoxButtonColor: '#807E82',
+                sendBoxButtonColorOnHover: '#1B396A'
+              });
+              styleSet.textContent = {
+                ...styleSet.textContent,
+                fontFamily: "'Arial'",
+              };
+              const avatarOptions = {
+                userAvatarImage: '<URL to your user avatar image>',
+                userAvatarInitials: 'AL'
+              };
+
+              window.WebChat.renderWebChat({
+                directLine: window.WebChat.createDirectLine({
+                  token: 'BtjL7CK0j4o.uyj-teSsUk6rjxUkZ49FkxozYAKLW2rKNOuEdumxe8M'
+                }),
+                styleSet,
+                styleOptions: avatarOptions
+              }, document.getElementById('webchat'));</script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn-bot">
+      <div class="mensaje">
+        <h3 class="text-msj">¿Necesitas ayuda?</h3>
+      </div>
+      <div class="logo">
+        <label for="btn-bot" class="icon-bot">
+        </label>
+      </div>
+    </div>
+</div>
+
+<!--Chatbot final-->
+  
 </body>
 
 </html>
