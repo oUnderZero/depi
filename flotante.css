@@ -45,6 +45,6 @@
 }
 
 #btn-chatbot:checked ~ .btn-chatbot .icon-chatbot{
-    transform: rotate(137deg);
+    transform: rotate(380deg);
     font-size: 25px;
 }
